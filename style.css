@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#datetime-widget {
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+    border-radius: 8px;
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#date, #time {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+#time {
+    font-weight: bold;
+}
